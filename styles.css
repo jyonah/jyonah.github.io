@@ -3,7 +3,36 @@
     src: url(resources/fonts/champagne__limousines-webfont.woff) format("woff");
 }
 
-h1 {
+.accent-color {
+  color: red;
+}
+
+html,body {
+  height: 100%;
+}
+body {
   margin: 0px;
+  padding-left: 10px;
+  border-left: 3px solid red;
+}
+
+h1 {
+  margin: 0px 10px;
   font-family: Chamo;
+  font-size: 100px;
+  /*font-weight: 100;*/
+}
+
+h1 .the-big-j {
+  font-size: 200px;
+  font-weight: 100;
+  vertical-align: top;
+  position: relative;
+  top: -30px;
+}
+
+h1 .onah .price {
+}
+h1 .price {
+  color: #7F7F7F;
 }
