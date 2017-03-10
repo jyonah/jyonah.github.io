@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Chamo";
+    src: url(resources/fonts/champagne__limousines-webfont.woff) format("woff");
+}
+
+h1 {
+  margin: 0px;
+  font-family: Chamo;
+}
