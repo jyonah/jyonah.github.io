@@ -11,7 +11,7 @@
 }
 
 html,body {
-  height: 100%;
+  /*height: 100%;*/
   font-family: helvetica, arial, sans-serif;
   font-weight: 100;
 }
@@ -72,12 +72,26 @@ h1 .price {
 
 /*MAIN BODY */
 
+main {
+  position: relative;
+  padding: 15px;
+  top: -100px;
+}
+
+ul ul {
+  margin-bottom: 7px;
+}
+
 .undecorated {
   list-style-type: none;
 }
 
 .section-title {
   font-weight: bold;
+}
+
+.section-meta {
+  float: right;
 }
 
 .project-description {
