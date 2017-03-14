@@ -20,11 +20,12 @@ body {
   padding-left: 10px;
   border-left: 3px solid red;
 }
-h1 {
+
+h1, h2 {
   margin: 0px 10px;
   font-family: Chamo;
-  /*font-weight: 100;*/
 }
+
 
 header h1 {
   font-size: 100px;
@@ -67,4 +68,29 @@ h1 .price {
   display: inline-flex;
   vertical-align: middle;
   margin-left: 10px;
+}
+
+/*MAIN BODY */
+
+.undecorated {
+  list-style-type: none;
+}
+
+.section-title {
+  font-weight: bold;
+}
+
+.project-description {
+  font-style: italic;
+}
+
+li h2 {
+  font-weight: bold;
+  font-size: 40px;
+  margin-top: 15px;
+  margin-bottom: 7px;
+}
+
+ul ul {
+  /*margin-bottom: 5px;*/
 }
