@@ -57,6 +57,13 @@ h1 .price {
   color: #7F7F7F;
 }
 
+/*HEADER*/
+
+.save-links {
+  float: right;
+  margin: 10px;
+}
+
 /*CONTACT LIST*/
 
 .contact-list {
@@ -117,6 +124,14 @@ main ul {
 ul ul {
   margin-bottom: 7px;
 }
+
+/*.skills {
+  display: flex;
+}
+
+.skills ul {
+  display: initial;
+}*/
 
 .undecorated {
   list-style-type: none;
